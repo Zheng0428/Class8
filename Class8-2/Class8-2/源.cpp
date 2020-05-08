@@ -5,8 +5,8 @@ using namespace cv;
 using namespace std;
 int main()
 {
-	cv::Mat srcMat = imread("D:\\a\\die_on_chip.png", 0);
-	cv::Mat Result = imread("D:\\a\\die_on_chip.png");
+	cv::Mat srcMat = imread("C:\\picture\\die_on_chip.png", 0);
+	cv::Mat Result = imread("C:\\picture\\die_on_chip.png");
 
 	cv::Mat	BinaryMat;
 	cv::Mat	OpenMat;
